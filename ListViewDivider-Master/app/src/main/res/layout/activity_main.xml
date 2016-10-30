@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/btn_simple_listview_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单的自定义宽度，颜色的listView分割线"/>
+
+    <Button
+        android:id="@+id/btn_listview_margin_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义距离左边一点距离的listView分割线"/>
+
+    <Button
+        android:id="@+id/btn_listview_dash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义虚线的listView分割线"/>
+</LinearLayout>
